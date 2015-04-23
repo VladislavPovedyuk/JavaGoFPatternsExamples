@@ -1,8 +1,7 @@
 ##Abstract Factory
 **Intent:** Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-![Abstract factory pattern diagram](https://raw.githubusercontent
-.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/AbstractFactory/src/diagram/abstract-factory-class-diagram.jpg "Abstract Factory")
+![Abstract factory pattern diagram](https://raw.githubusercontent.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/AbstractFactory/src/diagram/abstract-factory-class-diagram.jpg "Abstract Factory")
 
 **Applicability:** Use the Abstract Factory pattern when
 * a system should be independent of how its products are created, composed and represented
@@ -13,8 +12,7 @@
 ##Adapter
 **Intent:** Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 
-![Adapter pattern diagram](https://raw.githubusercontent
-.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/Adapter/src/diagram/adapter-class-diagram.jpg "Adapter")
+![Adapter pattern diagram](https://raw.githubusercontent.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/Adapter/src/diagram/adapter-class-diagram.jpg "Adapter")
 
 **Applicability:** Use the Adapter pattern when
 * you want to use an existing class, and its interface does not match the one you need
@@ -25,8 +23,7 @@
 **Intent:** Decouple an abstraction from its implementation so that the two can vary independently.
 
 
-![Bridge pattern diagram](https://raw.githubusercontent
-.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/Bridge/src/diagram/bridge-class-diagram.jpg "Bridge")
+![Bridge pattern diagram](https://raw.githubusercontent.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/Bridge/src/diagram/bridge-class-diagram.jpg "Bridge")
 
 **Applicability:** Use the Bridge pattern when
 * you want to avoid a permanent binding between an abstraction and its implementation. This might be the case, for example, when the implementation must be selected or switched at run-time.
