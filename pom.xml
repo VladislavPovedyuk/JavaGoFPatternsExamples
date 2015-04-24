@@ -13,6 +13,7 @@
         <module>AbstractFactory</module>
         <module>Adapter</module>
         <module>Bridge</module>
+        <module>Builder</module>
     </modules>
 
 

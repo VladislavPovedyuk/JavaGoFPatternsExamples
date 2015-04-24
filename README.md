@@ -32,3 +32,11 @@
 * you have a proliferation of classes. Such a class hierarchy indicates the need for splitting an object into two parts. Rumbaugh uses the term "nested generalizations" to refer to such class hierarchies
 * you want to share an implementation among multiple objects (perhaps using reference counting), and this fact should be hidden from the client. A simple example is Coplien's String class, in which multiple objects can share the same string representation.
 
+##Builder
+**Intent:** Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+
+![Builder pattern diagram](https://raw.githubusercontent.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/Builder/src/diagram/builder-class-diagram.jpg "Builder")
+
+**Applicability:** Use the Builder pattern when
+* the algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled
+* the construction process must allow different representations for the object that's constructed
