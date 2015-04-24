@@ -40,3 +40,13 @@
 **Applicability:** Use the Builder pattern when
 * the algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled
 * the construction process must allow different representations for the object that's constructed
+
+##Chain of responsibility
+**Intent:** Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+
+![Chain of Responsibility pattern diagram](https://raw.githubusercontent.com/VladislavPovedyuk/JavaGoFPatternsExamples/master/ChainOfResponsibility/src/diagram/chain-of-responsibility-class-diagram.jpg "Chain of Responsibility")
+
+**Applicability:** Use Chain of Responsibility when
+* more than one object may handle a request, and the handler isn't known a priori. The handler should be ascertained automatically
+* you want to issue a request to one of several objects without specifying the receiver explicitly
+* the set of objects that can handle a request should be specified dynamically

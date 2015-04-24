@@ -14,6 +14,7 @@
         <module>Adapter</module>
         <module>Bridge</module>
         <module>Builder</module>
+        <module>ChainOfResponsibility</module>
     </modules>
 
 
